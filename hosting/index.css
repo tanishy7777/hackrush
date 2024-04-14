@@ -1,9 +1,13 @@
+body{
+    background: #eee;
 
+}
 img{
     margin: auto;
     width: 10em;
     height: 10em;
 }
+
 
 
 .resident {
@@ -28,46 +32,41 @@ img{
     .users-panel{
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+        align-items: center;
+    }
+    .con{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: space-evenly;
+        align-items: center ;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 600px) {
     .users-panel{
         display: flex;
         flex-direction: column;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .users-panel{
-        display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
         height: 100vh;
         align-items: center;
     }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .users-panel{
+    .con{
         display: flex;
         flex-direction: row;
+        width: 100vw;
         justify-content: space-evenly;
-        height: 100vh;
-        align-items: center;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .users-panel{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        height: 100vh;
-        align-items: center;
-    }
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+

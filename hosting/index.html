@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
 
-    <!-- update the version number as needed -->
-    <!-- <script defer src="/__/firebase/10.11.0/firebase-app-compat.js"></script> -->
-    <!-- include only the Firebase features as you need -->
-    <!-- <script defer src="/__/firebase/10.11.0/firebase-auth-compat.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Firebase Hosting</title>
+
+  <!-- update the version number as needed -->
+  <!-- <script defer src="/__/firebase/10.11.0/firebase-app-compat.js"></script> -->
+  <!-- include only the Firebase features as you need -->
+  <!-- <script defer src="/__/firebase/10.11.0/firebase-auth-compat.js"></script>
     <script defer src="/__/firebase/10.11.0/firebase-database-compat.js"></script>
     <script defer src="/__/firebase/10.11.0/firebase-firestore-compat.js"></script>
     <script defer src="/__/firebase/10.11.0/firebase-functions-compat.js"></script>
@@ -17,13 +18,13 @@
     <script defer src="/__/firebase/10.11.0/firebase-analytics-compat.js"></script>
     <script defer src="/__/firebase/10.11.0/firebase-remote-config-compat.js"></script>
     <script defer src="/__/firebase/10.11.0/firebase-performance-compat.js"></script> -->
-    <!-- 
+  <!-- 
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
-    <!-- <script defer src="/__/firebase/init.js?useEmulator=true"></script> -->
+  <!-- <script defer src="/__/firebase/init.js?useEmulator=true"></script> -->
 
-    <!-- <style media="screen">
+  <!-- <style media="screen">
       body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
       #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
       #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
@@ -37,33 +38,45 @@
         body { border-top: 16px solid #ffa100; }
       }
     </style> -->
-    <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css">
 
-  </head>
-  <body>
+</head>
 
-    <div class="users-panel">
+<body>
+  
+  <div class="users-panel">
+
+    <div class="nav">
+      <!-- <img class="iitgn" src="assets/IIT_Gandhinagar_Logo.png" alt=""> -->
+      <h1>E Gate Portal IITGN</h1>
+  
+    </div>
+    
+    <div class="con">
       <div class="resident">
-          <a href="src/resident_login.html">
-              <img src="assets/resident.png" alt="">
-          </a>
-          
+        <a href="src/resident_login.html">
+          <img src="assets/resident.png" alt="">
+        </a>
+  
       </div>
       <div class="security">
-          <a href="/security_login.html">
-              <img src="assets/security.png" alt="">
-          </a>
-          
+        <a href="src/security_login.html">
+          <img src="assets/security.png" alt="">
+        </a>
+  
       </div>
       <div class="visitor">
-          <a href="/visitor_login.html">
-              <img src="assets/visitor.png" alt="">
-          </a>
-          
+        <a href="src/visitor_signup.html">
+          <img src="assets/visitor.png" alt="">
+        </a>
+  
       </div>
+
+    </div>
+    
   </div>
 
-    <!-- <div id="message">
+  <!-- <div id="message">
       <h2>Welcome</h2>
       <h1>Firebase Hosting Setup Complete</h1>
       <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
@@ -71,10 +84,10 @@
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p> -->
 
-    <!-- <script>
+  <!-- <script>
       document.addEventListener('DOMContentLoaded', function() {
         const loadEl = document.querySelector('#load'); -->
-        <!-- // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+  <!-- // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
         // // The Firebase SDK is initialized and available here!
         //
         // firebase.auth().onAuthStateChanged(user => { });
@@ -109,5 +122,6 @@
         }
       });
      </script> -->
-  </body>
-</html> 
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting started with Firebase Auth</title>
+    <link rel="stylesheet" href="security_login.css">
+</head>
+
+<body>
+
+    <div id="securitylogin">
+        <div class="header">
+            <h1>Security Signup</h1>
+        </div>
+        <form>
+            <div class="group">
+                <input id="txtMasterPassword" type="password">
+                <label for="txtMasterPassword">Master Password</label>
+            </div>
+            <div id="divLoginError" class="group">
+                <div id="lblLoginErrorMessage" class="errorlabel">Error message</div>
+            </div>
+            <button id="btn_security_login" type="button" class="button buttonBlue">Sign up</button>
+
+        </form>
+    </div>
+
+    <div id="security_app">
+        <div class="header">
+            <h1>Welcome to E Gate(Security View)</h1>
+        </div>
+        <form>
+            <div class="group">
+                <div id="lblAuthState" class="authlabel"></div>
+            </div>
+            <button id="security_logout" type="button" class="button buttonBlue">Log out</button>
+
+            <div id="reader">
+                <button id="btnscanner"> Scanner</button>
+            </div>
+        </form>
+
+
+
+    </div>
+
+    <script src="../dist/bundle.js"></script>
+
+</body>
+
+</html>
